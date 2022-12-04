@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+
+<style>
+	
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+</style>
+
+
+<div class="center-screen">
+<body>
+
+<input id="playerhit" type="button" value="HIT" onclick="playerDraw()">
+</br>
+<input id="playerstay" type="button" value="STAY" onclick="stay()">
+</br>
+<input id="dealerhit" type="button" value="Dealer Draw" onclick="dealerDraw()">
+</br>
+
+
+<p id="player">You: 0</p>
+
+<p id="dealer">Dealer: 0</p>
+
+<p id="winner"></p>
+
+<input id="playagain" type="button" value="Play Again!" onclick="playAgain()">
+
+</body>
+</div>
+</html>
